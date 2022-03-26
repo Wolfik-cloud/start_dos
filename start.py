@@ -19,7 +19,7 @@ threads = 50000
 
 url = "http://85.10.195.175"
 try:
-    threads = "20000"
+    threads = int(input("Threads: "))
 except ValueError:
     exit("Threads count is incorrect!")
 if threads == 0:
