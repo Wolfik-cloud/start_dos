@@ -4,6 +4,7 @@ import requests
 from colorama import init
 init()
 
+
 def dos(target):
     while True:
         try:
